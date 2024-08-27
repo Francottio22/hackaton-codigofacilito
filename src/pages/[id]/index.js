@@ -4,6 +4,7 @@ import Link from 'next/link'
 import dbConnect from '../../lib/dbConnect'
 import Pet from '../../models/Pet'
 
+
 /* Allows you to view pet card info and delete pet card*/
 const PetPage = ({ pet }) => {
   const router = useRouter()
